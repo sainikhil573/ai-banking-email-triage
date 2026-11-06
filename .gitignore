@@ -1,0 +1,7 @@
+#This prevents accidental commits of API credentials, virtual environment files, and local database records.
+.env
+.venv/
+__pycache__/
+*.pyc
+data/*.db
+data/*.sqlite3
